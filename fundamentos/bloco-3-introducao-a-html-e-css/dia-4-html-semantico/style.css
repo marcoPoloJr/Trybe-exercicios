@@ -1,0 +1,26 @@
+body{
+    font-family: monospace;
+    background-color: #53023A;
+    margin: 50px;
+    text-align: center;
+
+
+}
+h1, h2, h3{
+    color: #C85D31;
+}
+
+p{
+    color:#97BED6
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    background-color: red;
+    font-size: 30px;
+    padding: 50px;
+}
