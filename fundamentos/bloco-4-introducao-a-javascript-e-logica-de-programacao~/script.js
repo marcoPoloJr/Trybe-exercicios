@@ -1,15 +1,11 @@
-const a =60
-const b = 15
-const c= 20
-if (a > b){
-    console.log('a é maior que b e c')
+const a = 0
+
+if (a > 0){
+    console.log('posite')
 }
-else if(a > c){
-    console.log('a é maior que b e c')
+else if (a < 0){
+console.log('negative')
 }
-else if(b >c){
-console.log('b é maior que a e c')
+else{
+    console.log('zero')
 }
-else {
-    console.log('c é maior que a e b')
-    }
