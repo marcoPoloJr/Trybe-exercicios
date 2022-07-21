@@ -1,18 +1,11 @@
-const anguloA =-500
-const anguloB =60
-const anguloC =60
+const pecaXadrez = 'rainha'
 
-const somaDosAngulos= (anguloA + anguloB + anguloC)
+switch (pecaXadrez){
+    case 'peão':
+        console.log(Move pra frente)
+break;
+    case 'rainha'
+        console.log(move para todos os lados)
+break;
 
-if (somaDosAngulos == 180){
-    console.log('true')
-}
-else if (somaDosAngulos > 180){
-    console.log('false')
-}
-else if (somaDosAngulos < 180){
-    console.log(false)
-}
-else{
-    console.log('ERRO')
-}
+    }
