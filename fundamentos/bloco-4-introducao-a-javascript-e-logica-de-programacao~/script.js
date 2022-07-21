@@ -1,11 +1,18 @@
-const a = 0
+const anguloA =-500
+const anguloB =60
+const anguloC =60
 
-if (a > 0){
-    console.log('posite')
+const somaDosAngulos= (anguloA + anguloB + anguloC)
+
+if (somaDosAngulos == 180){
+    console.log('true')
 }
-else if (a < 0){
-console.log('negative')
+else if (somaDosAngulos > 180){
+    console.log('false')
+}
+else if (somaDosAngulos < 180){
+    console.log(false)
 }
 else{
-    console.log('zero')
+    console.log('ERRO')
 }
