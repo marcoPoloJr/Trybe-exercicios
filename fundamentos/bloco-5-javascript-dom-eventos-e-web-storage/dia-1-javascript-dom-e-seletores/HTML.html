@@ -42,7 +42,18 @@
       </section>
     </main>
     <script>
-        document.getElementsByTagName('p')[1].innerText = 'Quero estar trabalhando em uma empresa de desenvolvimento web.'
+        function mudarTexto(){
+            let texto = document.getElementsByTagName('p')[1];
+                texto.innerText = 'Quero estar trabalhando em uma empresa de desenvolvimento web.'
+        }
+        mudarTexto()
+        
+        
+        function alteraCor(){
+          let cor = document.getElementsByClassName('main-content')[0];
+            cor.style.background = 'rgb(76,164,109)'
+        }
+        alteraCor();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
